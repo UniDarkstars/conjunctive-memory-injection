@@ -101,4 +101,4 @@ Maintainer `build_*_inputs.py` and manuscript-reference tools need an explicitly
 
 ## Citation and licensing
 
-Citation metadata is in [CITATION.cff](CITATION.cff). The authors have not yet selected a distribution license for their research code/data. Third-party code retains its own notices and licenses. See [license notes](LICENSE_NOTES.md).
+Citation metadata is in [CITATION.cff](CITATION.cff). Original code and software documentation use the [MIT License](LICENSE); separately distributed research materials and processed data use [CC BY 4.0](LICENSE-DATA). Third-party code retains its own notices and licenses. See [license notes](LICENSE_NOTES.md) for the exact scope and attribution details.

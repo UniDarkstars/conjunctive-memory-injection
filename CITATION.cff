@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or the released observations, cite the accompanying manuscript. Publication metadata will be updated after publication."
 title: "Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution"
 type: software
+license: MIT
 authors:
   - family-names: Tan
     given-names: Junwen

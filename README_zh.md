@@ -82,4 +82,4 @@ python -m unittest discover -s tests -v
 
 `scripts/build_*_inputs.py` 等维护者工具需要显式指定原工作区，普通使用者不需要运行。日常复算只需要当前仓库。
 
-引用信息见 `CITATION.cff`。作者代码和数据的开源许可证尚待确定；第三方代码保留自身许可证，见 [LICENSE_NOTES.md](LICENSE_NOTES.md)。
+引用信息见 [CITATION.cff](CITATION.cff)。原创代码及软件文档采用 [MIT 许可证](LICENSE)，独立分发的研究材料和处理后数据采用 [CC BY 4.0](LICENSE-DATA)。第三方代码保留原许可证及版权声明；具体范围和署名方式见 [LICENSE_NOTES.md](LICENSE_NOTES.md)。
