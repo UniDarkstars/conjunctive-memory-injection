@@ -4,7 +4,7 @@ Research code and selected observations for **Conjunctive Prompt Injection in Me
 
 [中文使用说明](README_zh.md)
 
-This local release contains the seven experiment groups reported in the MiTA manuscript: component controls, storage layouts and supplied content, query strategies, missing-content restoration, condition matching, method/competition comparisons, and prompt-injection detection. It provides two separate routes:
+This repository contains the seven experiment groups reported in the MiTA manuscript: component controls, storage layouts and supplied content, query strategies, missing-content restoration, condition matching, method/competition comparisons, and prompt-injection detection. It provides two separate routes:
 
 - **Offline numerical reproduction:** recompute the six main tables, supplementary tables S1–S2, and additional reported statistics from selected task/window observations.
 - **Online experiment implementation:** inspect the tasks, attack materials, retrieval rules, simulated tools, runners and checkers under `online/`, or run new experiments after configuring dependencies and services.
@@ -101,4 +101,4 @@ Maintainer `build_*_inputs.py` and manuscript-reference tools need an explicitly
 
 ## Citation and licensing
 
-Citation metadata is in [CITATION.cff](CITATION.cff). The authors have not yet selected a distribution license for their research code/data; none is implied by this local package. Third-party code retains its own notices and licenses. See [license notes](LICENSE_NOTES.md). The local repository has not been uploaded by this preparation task.
+Citation metadata is in [CITATION.cff](CITATION.cff). The authors have not yet selected a distribution license for their research code/data. Third-party code retains its own notices and licenses. See [license notes](LICENSE_NOTES.md).
