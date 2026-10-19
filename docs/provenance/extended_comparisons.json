@@ -1,0 +1,119 @@
+{
+  "description": "Read-only projection of formal final-valid observations; no prompt, service log, account, token score or local absolute path exported.",
+  "sources": [
+    {
+      "path": "experiments/LangMem/_e19q/runs/compare_langmem.csv",
+      "sha256": "4cba46f33db90d022f9e38e0f8bfa888148abd6cca8b4e9540dbad74cca68a02"
+    },
+    {
+      "path": "experiments/LangMem/_e19q/runs/compare_langmem_summary.json",
+      "sha256": "76e6fc3d024d965c1835c7a550cb588e6bd85cc3090609011dbee4e1b025b746"
+    },
+    {
+      "path": "experiments/LangMem/_e19q/runs/compare_langmem_sensitivity.csv",
+      "sha256": "09cc0d77c4c79c3ebf81535a50e7d0f6d600eb297ca61259c5dbcafa31dd6078"
+    },
+    {
+      "path": "experiments/LangMem/_e19q/runs/compare_langmem_sensitivity_summary.json",
+      "sha256": "d6a93b5086b49a627854a4327f6d656ef153591200f37ac67ffa6fa89b04b1e0"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_integrated_20261010/episodes.csv",
+      "sha256": "4b0b15d6bbdf93384418fdd1c3fb825456bfbb1e3089c36064a7c30b11e8a054"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_integrated_20261010/cells.csv",
+      "sha256": "69dc2e69245e582c8d58e7333cd128602b07316d480913dba79399a47354a363"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_integrated_20261010/pairs.csv",
+      "sha256": "23206fc84fad11885a8d8e2fd98a0e9b6d8ecf2b8d011f9ed7b16eddb86b5548"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_integrated_20261010/stability_pairs.csv",
+      "sha256": "2ca4208d29584d7c3c259f6a4254531611d26c7a8c9ee28787f1bd7926fd1ed2"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_integrated_20261010/did.csv",
+      "sha256": "9d5ff9fa895832f1f9c9550c5e2dd50c55869571690910d06ffe64af34a4c1a3"
+    },
+    {
+      "path": "experiments/_stats/e17mg_summary/e17mg_integrated_20261014/episodes.csv",
+      "sha256": "cbd88ebeeaab52bca0f97aa845551f65bc0d6a48b967b2fbc9b76057e0e2c579"
+    },
+    {
+      "path": "experiments/_stats/e17mg_summary/e17mg_integrated_20261014/cells.csv",
+      "sha256": "fa12bf4a109cb1c6f6ef2dbab78660986548c8ddcee5c9b2151188ac678f3378"
+    },
+    {
+      "path": "experiments/_stats/e17mg_summary/e17mg_integrated_20261014/pairs_primary.csv",
+      "sha256": "57b21c3fbe1188effec290b746373cda40639b136bc8c1a60d466b37ef396b4e"
+    },
+    {
+      "path": "experiments/_stats/e17mg_summary/e17mg_integrated_20261014/pairs_exploratory.csv",
+      "sha256": "12d3db88600b23a4c0d64488bcef7afadcffb2042eba25c0e71078b0fbcffefc"
+    },
+    {
+      "path": "experiments/_stats/e15_detector_audit/results_episodes_zh.jsonl",
+      "sha256": "14200f87816bd9d6f6c64070f6a6189c6bfcf857937552cdc5545658aede40c9"
+    },
+    {
+      "path": "experiments/_stats/e15_detector_audit/results_windows_zh.jsonl",
+      "sha256": "f4185818afa1326c13c00c92427d724180bd8801482ccad8952624e09d4369b8"
+    },
+    {
+      "path": "experiments/_stats/e15_detector_audit/results_episodes_en_fixed.jsonl",
+      "sha256": "5060847bb5a633a07415ee8e1380e56840a480a1a2893602c1babf782166984d"
+    },
+    {
+      "path": "experiments/_stats/e15_detector_audit/results_windows_en_fixed.jsonl",
+      "sha256": "e5a61d1a0ce753671d0314df5513848e811d2f4419ed02f4138132032344ae1e"
+    },
+    {
+      "path": "experiments/_stats/e14_e15_summary/e15_coverage.csv",
+      "sha256": "3c8f1af668cc096fe067869e013e9a5fb83b0700542388d6d94fd2747112f8be"
+    },
+    {
+      "path": "experiments/_stats/e14_e15_summary/e15_windows.csv",
+      "sha256": "b2c2655986e21bb807c95f6f6b8d29eff92705bb7c76afe6de1901290c7e3644"
+    },
+    {
+      "path": "experiments/_stats/e14_e15_summary/paired_contrasts.csv",
+      "sha256": "1aebfc48faecaae25b85bf3e5cc331534ced8c0c782e0fbeb9456115f6238282"
+    },
+    {
+      "path": "MiTA2027_20261017/english/sections/discussion.tex",
+      "sha256": "70a5221d7c87a08e833b4895a1b4087302338ac10e40f6e83070e978c3345af7"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/did_permutation.py",
+      "sha256": "7e485aa2a63d2ef4bbbabd0449f2c39add6e6aa26a859742cb9fe594b4fb0f91"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/e17_summary.py",
+      "sha256": "98db2fa6d4b308044032ec5f5d84b2bec852c44c5a5aa035090b8175e5a9204c"
+    },
+    {
+      "path": "experiments/_stats/e17_summary/stats_core.py",
+      "sha256": "e92c98f1f2441f5a190245903f3405f2cfbec8586fbdb83814abd68218bbe6bc"
+    },
+    {
+      "path": "experiments/_stats/e15_detector_audit/summarize.py",
+      "sha256": "eac1a429f1d02718421266a024e50076c0711eb2f44405e6168faa0a2bdd6af2"
+    }
+  ],
+  "selection": {
+    "e19q": "LangMem baseline W6/M6 and same-task W6/8/10 M12 sensitivity, retrieval only",
+    "e17": "all three competition levels, 1800 final-valid episodes",
+    "e17mg": "480 final-valid episodes: Fully merged baseline only, MemoryGraft at three levels",
+    "e15": "Chinese wiring-2 / corrected English wiring-2.1, PG only; paired identities; empty memory labels remain nullable"
+  },
+  "permutation": {
+    "numpy_version_used_original_environment": "2.2.6",
+    "generator": "numpy.random.default_rng",
+    "seed": 20261008,
+    "n_mc": 100000,
+    "unit": "one within-task swap of both base/high outcomes"
+  },
+  "reference_policy": "Archived aggregate statistics and current manuscript claims supply expected results; no src calculation is imported here."
+}

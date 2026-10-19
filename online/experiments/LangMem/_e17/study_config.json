@@ -1,0 +1,10 @@
+{
+  "W": 6,
+  "M_base": 6,
+  "m_levels": {
+    "base": 6,
+    "mid": 12,
+    "stress": 24
+  },
+  "freeze_reason": "Clean预检（两情境各10个dev任务，W∈{6,8,10,12}×M全网格，runs/precheck/precheck_langmem_clean_summary.csv）：按字典序取最小可行组合(W,M)=(6,6)——两情境all_nonempty=True、mean_code_hits=3.0（三编号全覆盖）、mean_returned=6.0≥0.8×W=4.8；(6,2)/(6,4)因mean_returned=2.0/4.0<4.8不达标；4×M_base=24≤48合规。"
+}

@@ -1,0 +1,11 @@
+# Preserve the byte identity of archived numerical exports.
+* -text
+# Release runtime freezes are generated after LF normalization.
+online/**/*.py text eol=lf
+online/**/*.json text eol=lf
+online/**/*.jsonl text eol=lf
+online/**/*.md text eol=lf
+online/**/*.txt text eol=lf
+online/**/*.toml text eol=lf
+online/**/*.yaml text eol=lf
+online/**/*.yml text eol=lf

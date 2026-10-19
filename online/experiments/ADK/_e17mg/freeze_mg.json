@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-19T10:47:56",
+  "receipt_kind": "release-copy-20261019; not the historical experiment freeze",
+  "seed": 20261013,
+  "batch": "e17mg_v1",
+  "new_files": {
+    "experiments/ADK/_e17mg/run_episode_mg.py": "c968c4bb595fbe7f",
+    "experiments/ADK/_e17mg/run_all_mg.py": "0f81c443a2c0df01",
+    "experiments/ADK/_e17mg/precheck_mg_dev.py": "79f392b3454edfdd",
+    "experiments/ADK/_e17mg/check_episode_mg.py": "193a5d464e72eb04",
+    "experiments/_e17mg_materials/__init__.py": "77c98cd3fd00e318",
+    "experiments/_e17mg_materials/mg_methods.py": "34372328a4c27543",
+    "experiments/_e17mg_materials/mg_records.py": "58a6b57cc0120adc"
+  },
+  "reused_from_e17_v1": {
+    "experiments/ADK/_e17/freeze.json": "35d18b5ddedd9e95",
+    "experiments/ADK/_e17/study_config.json": "362dfcf09fa2c9ef",
+    "experiments/ADK/_e17/run_episode.py": "9c9275edfd48b9c9"
+  },
+  "note": "e17_v1 files are NOT modified by e17mg; reused hashes are recorded for drift detection only"
+}

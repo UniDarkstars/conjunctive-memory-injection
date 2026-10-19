@@ -1,0 +1,10 @@
+{
+  "W": 10,
+  "M_base": 8,
+  "m_levels": {
+    "base": 8,
+    "mid": 16,
+    "stress": 32
+  },
+  "freeze_reason": "Clean预检（两情境各10个dev任务，W=10）：M=2/4/6时mean_returned=2.0/4.0/6.0均<8不达标；M=8起两情境all_nonempty=True、mean_code_hits=3.0（三编号全覆盖）、mean_returned=8.0≥8（W=10的80%），且4×M_base=32≤48，故冻结M_base=8（runs/precheck/precheck_adk_clean_summary.csv）。"
+}

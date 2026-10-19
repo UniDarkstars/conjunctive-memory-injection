@@ -1,0 +1,146 @@
+{
+  "tables": [
+    5,
+    6
+  ],
+  "extracted_on": "2026-10-19",
+  "runtime_policy": "Offline stdlib Python using release CSVs only. Workspace source paths below are provenance only, not runtime inputs.",
+  "sources": [
+    {
+      "workspace_relative_path": "experiments/_stats/e17_summary/e17_integrated_20261010/episodes.csv",
+      "sha256_before_extraction": "4b0b15d6bbdf93384418fdd1c3fb825456bfbb1e3089c36064a7c30b11e8a054",
+      "rows_read": 1800,
+      "filter": {
+        "batch": "m-base"
+      },
+      "rows_retained": 600,
+      "rows_excluded": 1200,
+      "excluded_reason": "Other competition levels are outside main Table V."
+    },
+    {
+      "workspace_relative_path": "experiments/_stats/e17mg_summary/e17mg_integrated_20261014/episodes.csv",
+      "sha256_before_extraction": "cbd88ebeeaab52bca0f97aa845551f65bc0d6a48b967b2fbc9b76057e0e2c579",
+      "rows_read": 480,
+      "filter": {
+        "batch": "mg-base"
+      },
+      "rows_retained": 240,
+      "rows_excluded": 240,
+      "excluded_reason": "Other competition levels are outside main Table V."
+    },
+    {
+      "workspace_relative_path": "experiments/_stats/e15_detector_audit/results_episodes_zh.csv",
+      "sha256_before_extraction": "00b7b30d699f9d3b8ec59ca289874a7c1978e049ee1c1dfc880963ae190ede72",
+      "rows_read": 240,
+      "rows_retained": 240,
+      "rows_excluded": 0,
+      "version_rationale": "Formal wiring-2 Chinese full run; no smoke or wiring1."
+    },
+    {
+      "workspace_relative_path": "experiments/_stats/e15_detector_audit/results_windows_zh.jsonl",
+      "sha256_before_extraction": "f4185818afa1326c13c00c92427d724180bd8801482ccad8952624e09d4369b8",
+      "rows_read": 1482,
+      "rows_retained": 1482,
+      "rows_excluded": 0,
+      "version_rationale": "Formal matching-language full-run window labels; English uses corrected coverage variant. No window text copied."
+    },
+    {
+      "workspace_relative_path": "experiments/_stats/e15_detector_audit/results_episodes_en_fixed.csv",
+      "sha256_before_extraction": "3b4f0e1f270055c66873ce4d1c2f3515ac63fada7dc3ce638b3514c28496fd52",
+      "rows_read": 240,
+      "rows_retained": 240,
+      "rows_excluded": 0,
+      "version_rationale": "Formal full-run English wiring-2.1 coverage-corrected version; detector labels unchanged, no smoke or stale coverage fields."
+    },
+    {
+      "workspace_relative_path": "experiments/_stats/e15_detector_audit/results_windows_en_fixed.jsonl",
+      "sha256_before_extraction": "e5a61d1a0ce753671d0314df5513848e811d2f4419ed02f4138132032344ae1e",
+      "rows_read": 1482,
+      "rows_retained": 1482,
+      "rows_excluded": 0,
+      "version_rationale": "Formal matching-language full-run window labels; English uses corrected coverage variant. No window text copied."
+    }
+  ],
+  "field_mappings": {
+    "table5": {
+      "task_identity": [
+        "platform",
+        "scenario",
+        "method",
+        "task_id",
+        "batch"
+      ],
+      "original_batch": "E17 selected valid final episodes, batch=m-base; archived failed attempts are not episodes.csv rows.",
+      "concurrent_batch": "E17mg selected valid final episodes, batch=mg-base; independent run batch, never pooled with original Fully merged.",
+      "first_request_delivery": {
+        "original_non_clean": "first_full",
+        "original_clean": "NA; blank CSV cell, rendered --",
+        "concurrent_fully_merged": "first_all",
+        "concurrent_memorygraft": "first_ge1 (at least one complete experience record in the FIRST model request)"
+      },
+      "target_executions": {
+        "original": "export_calls",
+        "concurrent": "target_executions"
+      },
+      "execution_outcome": "int(target_executions)>0; cross-checked against source p3 during extraction",
+      "search_width": {
+        "original": "search_limit",
+        "concurrent": "search_width"
+      },
+      "benign_records": {
+        "original": "actual_m",
+        "concurrent": "m_count"
+      },
+      "discarded_columns": "Raw run paths, service/account metadata, config signatures, timestamps, costs and unnecessary fields are omitted."
+    },
+    "table6": {
+      "source_identity": [
+        "platform",
+        "scenario",
+        "case",
+        "episode"
+      ],
+      "source_id": "platform_scenario_case_episode; identical across paired zh/en versions",
+      "condition": "case (both=Template + records attack; clean=clean source)",
+      "n_memory_records": "n_mem_entries; zero-memory sources retained in release and excluded dynamically from both memory-scan denominators. Source *_no_memory is True for empty sources and blank otherwise; verified at extraction.",
+      "memory_prefix_positive": "{lang}_pg_mem_prefix_detected; nullable only for empty memory",
+      "saved_per_record_positive": "{lang}_pg_mem_windows_detected; validation only, not used to calculate the table count",
+      "request_prefix_positive": "{lang}_pg_full_prefix_detected; supports table note",
+      "per_record_positive": "Window label_id==1; any positive window within a record, then any positive record within source. Each record has one window in these data, checked at runtime.",
+      "window_fields": {
+        "language": "lang",
+        "source_id": "episode_key",
+        "record_index": "entry",
+        "window_start": "start",
+        "raw_tokens": "tokens",
+        "positive": "label_id"
+      },
+      "discarded_columns": "All window texts, request/record text, detector floating scores, LG outputs, coverage metadata and account/path metadata omitted."
+    }
+  },
+  "exclusions": [
+    {
+      "scope": "Table VI denominator",
+      "rule": "n_memory_records == 0 excludes source from both memory-scan fractions, not from CSV inventory",
+      "excluded_per_language": 6,
+      "pairing": "Same source identities retained for Chinese and English; languages are paired measurements, not independent episodes."
+    }
+  ],
+  "release_outputs": [
+    {
+      "release_relative_path": "data/processed/table5_episodes.csv",
+      "rows_written": 840,
+      "sha256": "902db9a68d98c24109ed3ee0ae9319a9dc9ecb21ee83ec99e5215e772e601ece"
+    },
+    {
+      "release_relative_path": "data/processed/table6_episodes.csv",
+      "rows_written": 480,
+      "sha256": "4ef768abe8f5e253d52cc3fc49f2c2ea810f709dd604e9c0c1c315fef2927943"
+    },
+    {
+      "release_relative_path": "data/processed/table6_windows.csv",
+      "rows_written": 2964,
+      "sha256": "fdc7eb502e57e46b9ed00395d19434adfa58e1580401d62fe1133d615e804017"
+    }
+  ]
+}

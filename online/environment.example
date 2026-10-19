@@ -1,0 +1,9 @@
+# Reference only; no script automatically loads this file or any .env file.
+# Set these in the environment of the terminal running online/run.py.
+NORMAL_BASE_URL=
+NORMAL_API_KEY=
+NORMAL_CHAT_MODEL=DeepSeek-V4-Flash-0731
+# LangMem expects the same OpenAI-compatible endpoint to serve bge-m3 embeddings.
+# Configure a compatible service or adapt make_embedder before a new study.
+# PG and the reference tokenizer use Hugging Face model artifacts. No weights
+# are bundled. HF_HOME defaults to online/models_cache (ignored by Git).

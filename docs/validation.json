@@ -1,0 +1,27 @@
+{
+  "validation_date": "2026-10-19",
+  "scope": "Current MiTA main paper and statistical tables S1/S2; independent local release",
+  "offline_main_table_rows": 50,
+  "offline_extended_rows": 360,
+  "offline_result_groups": 29,
+  "all_reference_comparisons_match": true,
+  "unittest_cases_passed": 38,
+  "source_files_checked_unchanged": 8776,
+  "all_recorded_source_hashes_unchanged": true,
+  "isolation_test": "Copied full numerical package ran with original-workspace reads, sockets and child-process calls denied; only copy outputs were writable. Installed NumPy was used.",
+  "online_validation": "Static review, copied-resource integrity, fresh-directory/missing-block regressions, launcher dry runs and argument/import checks only.",
+  "online_model_calls_performed": false,
+  "fresh_online_dependency_install_performed": false,
+  "formal_experiment_or_manuscript_edits": false,
+  "github_upload_performed": false,
+  "numerical_environment": {
+    "python": "3.10.8",
+    "numpy": "1.26.4"
+  },
+  "prior_six_table_receipt": "docs/provenance/six_table_validation.json",
+  "note": "Recompute scripts/reproduce_all.py to obtain a current outputs/all_verification.json; do not infer an online rerun from numeric reproduction.",
+  "online_regression_tests_passed": 11,
+  "online_copied_files_checked": 1283,
+  "online_files_match_release_manifest": true,
+  "online_dependency_metadata_note": "An initial Hugging Face metadata HEAD retry was blocked; no chat/embedding API call or model experiment ran. Subsequent import checks forced offline mode."
+}

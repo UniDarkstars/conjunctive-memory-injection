@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-10-19T10:47:56",
+  "receipt_kind": "release-copy-20261019; not the historical experiment freeze",
+  "seed": 20261008,
+  "files": {
+    "ADK/_e17/study_config.json": "362dfcf09fa2c9ef",
+    "ADK/_e17/external/payloads/frozen_payload_s1.json": "f8529ce57083af37",
+    "ADK/_e17/external/payloads/frozen_payload_s2.json": "099067129174881d",
+    "_e17_materials/__init__.py": "2b65ea96eed7bc48",
+    "_e17_materials/benign_pools.py": "52e704a0e9797f0d",
+    "_e17_materials/budget.py": "46d44cc499465c2d",
+    "_e17_materials/instances_s1.py": "0dde53f773da1775",
+    "_e17_materials/instances_s2.py": "69240872ceb15064",
+    "_e17_materials/methods.py": "7bdb225457fa51c1",
+    "_e17_materials/templates.py": "c7a3e0d01d4817fa",
+    "ADK/_e17/run_episode.py": "9c9275edfd48b9c9"
+  }
+}

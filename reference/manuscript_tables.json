@@ -1,0 +1,511 @@
+{
+  "description": "Numeric table reference extracted directly from the English MiTA manuscript; used only for verification, never to calculate results.",
+  "source_sha256": {
+    "results.tex": "4b7f56ada55f028b59bc3ec016a7345803f4e263bf482908a48c28753a397c14",
+    "discussion.tex": "70a5221d7c87a08e833b4895a1b4087302338ac10e40f6e83070e978c3345af7"
+  },
+  "tables": [
+    {
+      "number": 1,
+      "slug": "components",
+      "label": "tab:components",
+      "columns": [
+        "Memory content",
+        "ADK Supplier",
+        "ADK Release",
+        "LangMem Supplier",
+        "LangMem Release"
+      ],
+      "rows": [
+        [
+          "Clean",
+          "0/30",
+          "0/30",
+          "0/30",
+          "0/30"
+        ],
+        [
+          "Template only",
+          "5/30",
+          "1/30",
+          "5/30",
+          "0/30"
+        ],
+        [
+          "Records only",
+          "0/30",
+          "1/30",
+          "0/30",
+          "0/30"
+        ],
+        [
+          "Template + records",
+          "12/30",
+          "18/30",
+          "27/30",
+          "25/30"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "layout",
+      "label": "tab:layout",
+      "columns": [
+        "Platform",
+        "Scenario",
+        "Layout",
+        "Complete delivery",
+        "Natural execution",
+        "Supplied execution"
+      ],
+      "rows": [
+        [
+          "ADK",
+          "Supplier",
+          "Distributed",
+          "0/30",
+          "2/30",
+          "7/30"
+        ],
+        [
+          "ADK",
+          "Supplier",
+          "Fully merged",
+          "30/30",
+          "13/30",
+          "12/30"
+        ],
+        [
+          "ADK",
+          "Supplier",
+          "Condition-record merged",
+          "30/30",
+          "13/30",
+          "10/30"
+        ],
+        [
+          "ADK",
+          "Release",
+          "Distributed",
+          "0/30",
+          "1/30",
+          "19/30"
+        ],
+        [
+          "ADK",
+          "Release",
+          "Fully merged",
+          "30/30",
+          "24/30",
+          "23/30"
+        ],
+        [
+          "ADK",
+          "Release",
+          "Condition-record merged",
+          "30/30",
+          "16/30",
+          "18/30"
+        ],
+        [
+          "LangMem",
+          "Supplier",
+          "Distributed",
+          "0/30",
+          "0/30",
+          "29/30"
+        ],
+        [
+          "LangMem",
+          "Supplier",
+          "Fully merged",
+          "30/30",
+          "17/30",
+          "21/30"
+        ],
+        [
+          "LangMem",
+          "Supplier",
+          "Condition-record merged",
+          "30/30",
+          "23/30",
+          "27/30"
+        ],
+        [
+          "LangMem",
+          "Release",
+          "Distributed",
+          "0/30",
+          "1/30",
+          "23/30"
+        ],
+        [
+          "LangMem",
+          "Release",
+          "Fully merged",
+          "30/30",
+          "29/30",
+          "28/30"
+        ],
+        [
+          "LangMem",
+          "Release",
+          "Condition-record merged",
+          "30/30",
+          "30/30",
+          "26/30"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "query",
+      "label": "tab:query",
+      "columns": [
+        "Scenario",
+        "Layout",
+        "Whole task (joint / execution)",
+        "Per object (joint / execution)"
+      ],
+      "rows": [
+        [
+          "Supplier",
+          "Distributed",
+          "0 / 0",
+          "30 / 19"
+        ],
+        [
+          "Supplier",
+          "Fully merged",
+          "30 / 15",
+          "30 / 13"
+        ],
+        [
+          "Release",
+          "Distributed",
+          "0 / 0",
+          "30 / 24"
+        ],
+        [
+          "Release",
+          "Fully merged",
+          "30 / 29",
+          "30 / 27"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "restoration",
+      "label": "tab:restore",
+      "columns": [
+        "Model",
+        "Platform",
+        "Scenario",
+        "Replay",
+        "Restore",
+        "Benign",
+        "Restore - benign [95% CI] (pp)",
+        "Holm p"
+      ],
+      "rows": [
+        [
+          "DeepSeek",
+          "ADK",
+          "Supplier",
+          "2/30",
+          "18/30",
+          "3/30",
+          "50.0 [12.5, 73.8]",
+          "<0.001"
+        ],
+        [
+          "DeepSeek",
+          "ADK",
+          "Release",
+          "0/30",
+          "21/30",
+          "0/30",
+          "70.0 [34.4, 86.8]",
+          "<0.001"
+        ],
+        [
+          "DeepSeek",
+          "LangMem",
+          "Supplier",
+          "0/30",
+          "29/30",
+          "1/30",
+          "93.3 [62.0, 99.4]",
+          "<0.001"
+        ],
+        [
+          "DeepSeek",
+          "LangMem",
+          "Release",
+          "0/30",
+          "26/30",
+          "1/30",
+          "83.3 [49.1, 95.3]",
+          "<0.001"
+        ],
+        [
+          "Kimi-K3",
+          "ADK",
+          "Supplier",
+          "--",
+          "9/30",
+          "1/30",
+          "26.7 [-6.3, 51.9]",
+          "0.0430"
+        ],
+        [
+          "Kimi-K3",
+          "ADK",
+          "Release",
+          "--",
+          "6/30",
+          "0/30",
+          "20.0 [-7.0, 41.2]",
+          "0.0430"
+        ],
+        [
+          "Kimi-K3",
+          "LangMem",
+          "Supplier",
+          "--",
+          "8/30",
+          "0/30",
+          "26.7 [-2.7, 48.5]",
+          "0.0234"
+        ],
+        [
+          "Kimi-K3",
+          "LangMem",
+          "Release",
+          "--",
+          "10/30",
+          "0/30",
+          "33.3 [2.0, 55.4]",
+          "0.0078"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "methods",
+      "label": "tab:methods",
+      "columns": [
+        "Platform",
+        "Method",
+        "Supplier delivery",
+        "Supplier execution",
+        "Release delivery",
+        "Release execution"
+      ],
+      "rows": [
+        [
+          "ADK",
+          "Clean",
+          "--",
+          "0",
+          "--",
+          "0"
+        ],
+        [
+          "ADK",
+          "Direct injection",
+          "30",
+          "0",
+          "30",
+          "0"
+        ],
+        [
+          "ADK",
+          "Distributed",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "ADK",
+          "Fully merged",
+          "30",
+          "17",
+          "30",
+          "18"
+        ],
+        [
+          "ADK",
+          "AgentPoison adaptation",
+          "30",
+          "0",
+          "30",
+          "0"
+        ],
+        [
+          "ADK",
+          "Fully merged (concurrent)",
+          "30",
+          "16",
+          "30",
+          "28"
+        ],
+        [
+          "ADK",
+          "MemoryGraft adaptation",
+          "30",
+          "0",
+          "30",
+          "0"
+        ],
+        [
+          "LangMem",
+          "Clean",
+          "--",
+          "0",
+          "--",
+          "0"
+        ],
+        [
+          "LangMem",
+          "Direct injection",
+          "30",
+          "0",
+          "30",
+          "0"
+        ],
+        [
+          "LangMem",
+          "Distributed",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "LangMem",
+          "Fully merged",
+          "1",
+          "1",
+          "2",
+          "2"
+        ],
+        [
+          "LangMem",
+          "AgentPoison adaptation",
+          "28",
+          "0",
+          "26",
+          "0"
+        ],
+        [
+          "LangMem",
+          "Fully merged (concurrent)",
+          "1",
+          "1",
+          "2",
+          "1"
+        ],
+        [
+          "LangMem",
+          "MemoryGraft adaptation",
+          "27",
+          "0",
+          "29",
+          "0"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "detection",
+      "label": "tab:detection",
+      "columns": [
+        "Text",
+        "Platform",
+        "Scenario",
+        "Attack memory prefix",
+        "Attack per record",
+        "Clean memory prefix",
+        "Clean per record"
+      ],
+      "rows": [
+        [
+          "Chinese",
+          "ADK",
+          "Supplier",
+          "30/30",
+          "30/30",
+          "26/26",
+          "2/26"
+        ],
+        [
+          "Chinese",
+          "ADK",
+          "Release",
+          "30/30",
+          "30/30",
+          "28/28",
+          "24/28"
+        ],
+        [
+          "Chinese",
+          "LangMem",
+          "Supplier",
+          "30/30",
+          "30/30",
+          "29/30",
+          "30/30"
+        ],
+        [
+          "Chinese",
+          "LangMem",
+          "Release",
+          "30/30",
+          "30/30",
+          "30/30",
+          "30/30"
+        ],
+        [
+          "English",
+          "ADK",
+          "Supplier",
+          "28/30",
+          "30/30",
+          "22/26",
+          "0/26"
+        ],
+        [
+          "English",
+          "ADK",
+          "Release",
+          "0/30",
+          "5/30",
+          "27/28",
+          "4/28"
+        ],
+        [
+          "English",
+          "LangMem",
+          "Supplier",
+          "3/30",
+          "30/30",
+          "0/30",
+          "30/30"
+        ],
+        [
+          "English",
+          "LangMem",
+          "Release",
+          "0/30",
+          "26/30",
+          "0/30",
+          "26/30"
+        ]
+      ]
+    }
+  ]
+}

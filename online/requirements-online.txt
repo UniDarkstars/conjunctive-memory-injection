@@ -1,0 +1,15 @@
+# Install from the repository root. Versions are the local review environment,
+# not a claim that every historical model-service revision is reconstructible.
+-e ./online/agent-frameworks/adk-python
+google-genai==2.25.0
+openai==3.16.2
+langgraph==1.2.11
+langgraph-checkpoint==4.2.0
+langchain-openai==1.6.2
+langchain-core==1.6.3
+transformers==4.57.1
+tokenizers==0.22.2
+torch==2.5.1
+pydantic==2.13.5
+numpy==2.2.6
+typing-extensions==4.16.0

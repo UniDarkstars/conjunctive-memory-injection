@@ -1,0 +1,147 @@
+{
+  "validation_date": "2026-10-19",
+  "source_files_checked_unchanged": 6501,
+  "all_source_hashes_unchanged": true,
+  "english_chinese_numeric_tables_identical": true,
+  "manuscript_reference_matches_current_sources": true,
+  "tables_checked": 6,
+  "manuscript_rows_checked": 50,
+  "unittest_cases_passed": 12,
+  "isolation_test": "Copied package executed under Python -I -S -B; audit hook denied sockets/process launches and all file access outside the copy or Python standard library, and denied writes outside its outputs/.",
+  "original_workspace_writes": false,
+  "github_upload_performed": false,
+  "csv_inventory": [
+    {
+      "file": "data/processed/table1_components.csv",
+      "rows": 480,
+      "columns": [
+        "platform",
+        "scenario",
+        "task_id",
+        "task_index",
+        "batch",
+        "executed",
+        "export_calls",
+        "final_response_present",
+        "condition",
+        "material_revision"
+      ],
+      "sha256": "0c8a68ee8b6046ce0a330919f6523d2690c4342930906d32ec19093c0428a2b7"
+    },
+    {
+      "file": "data/processed/table2_layouts.csv",
+      "rows": 720,
+      "columns": [
+        "platform",
+        "scenario",
+        "task_id",
+        "task_index",
+        "batch",
+        "executed",
+        "export_calls",
+        "final_response_present",
+        "path",
+        "layout",
+        "wiring_revision",
+        "first_t",
+        "first_k1",
+        "first_k2",
+        "first_k3",
+        "first_full",
+        "all_requests_full",
+        "request_count"
+      ],
+      "sha256": "24bfc11ada711480770caca25d9c54677208673a20ea249c080c15120e43db7e"
+    },
+    {
+      "file": "data/processed/table3_queries.csv",
+      "rows": 240,
+      "columns": [
+        "platform",
+        "scenario",
+        "task_id",
+        "batch",
+        "layout",
+        "query_mode",
+        "valid",
+        "w",
+        "m",
+        "temperature_sent",
+        "component_count",
+        "retrieved_component_count",
+        "joint_retrieval",
+        "first_full",
+        "executed",
+        "export_calls",
+        "export_attempts"
+      ],
+      "sha256": "a87004cb535d4e34e721c6a6b47259f3aa837bdda9b739560f1ec3f4eb658aef"
+    },
+    {
+      "file": "data/processed/table4_episodes.csv",
+      "rows": 600,
+      "columns": [
+        "model",
+        "batch",
+        "platform",
+        "scenario",
+        "task_index",
+        "snapshot_sha256",
+        "arm",
+        "status",
+        "valid_run",
+        "technical_error",
+        "input_checks_ok",
+        "target_tool_calls",
+        "executed"
+      ],
+      "sha256": "8f9537dcd569738bc5e95a522c3127bae084f33c5ee313c4c53e258b110cd436"
+    },
+    {
+      "file": "data/processed/table5_episodes.csv",
+      "rows": 840,
+      "columns": [
+        "batch",
+        "platform",
+        "scenario",
+        "method",
+        "task_id",
+        "search_width",
+        "benign_records",
+        "first_request_delivery",
+        "target_executions"
+      ],
+      "sha256": "902db9a68d98c24109ed3ee0ae9319a9dc9ecb21ee83ec99e5215e772e601ece"
+    },
+    {
+      "file": "data/processed/table6_episodes.csv",
+      "rows": 480,
+      "columns": [
+        "language",
+        "platform",
+        "scenario",
+        "condition",
+        "task_id",
+        "source_id",
+        "n_memory_records",
+        "memory_prefix_positive",
+        "saved_per_record_positive",
+        "request_prefix_positive"
+      ],
+      "sha256": "4ef768abe8f5e253d52cc3fc49f2c2ea810f709dd604e9c0c1c315fef2927943"
+    },
+    {
+      "file": "data/processed/table6_windows.csv",
+      "rows": 2964,
+      "columns": [
+        "language",
+        "source_id",
+        "record_index",
+        "window_start",
+        "raw_tokens",
+        "positive"
+      ],
+      "sha256": "fdc7eb502e57e46b9ed00395d19434adfa58e1580401d62fe1133d615e804017"
+    }
+  ]
+}

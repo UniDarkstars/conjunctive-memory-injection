@@ -1,0 +1,36 @@
+{
+  "frozen_at": "2026-10-19T10:47:56",
+  "receipt_kind": "release-copy-20261019; not the historical experiment freeze",
+  "seed": 20261013,
+  "batch": "e17mg_v1",
+  "new_files": {
+    "experiments/LangMem/_e17mg/run_episode_mg.py": "d5db89cfec8f89b7",
+    "experiments/LangMem/_e17mg/run_all_mg.py": "02de867d77bf20c9",
+    "experiments/LangMem/_e17mg/precheck_mg_dev.py": "7c403fec461453cd",
+    "experiments/LangMem/_e17mg/check_episode_mg.py": "193a5d464e72eb04",
+    "experiments/_e17mg_materials/__init__.py": "77c98cd3fd00e318",
+    "experiments/_e17mg_materials/mg_methods.py": "34372328a4c27543",
+    "experiments/_e17mg_materials/mg_records.py": "58a6b57cc0120adc"
+  },
+  "reused_from_e17_v1": {
+    "experiments/LangMem/_e17/freeze.json": "f4721cb8bcdb74d8",
+    "experiments/LangMem/_e17/study_config.json": "c7a6fbe82225fc3b",
+    "experiments/LangMem/_e17/run_episode.py": "ac82435034d32e2c"
+  },
+  "shared_e17_materials": {
+    "experiments/_e17_materials/__init__.py": "2b65ea96eed7bc48",
+    "experiments/_e17_materials/benign_pools.py": "52e704a0e9797f0d",
+    "experiments/_e17_materials/budget.py": "46d44cc499465c2d",
+    "experiments/_e17_materials/instances_s1.py": "0dde53f773da1775",
+    "experiments/_e17_materials/instances_s2.py": "69240872ceb15064",
+    "experiments/_e17_materials/methods.py": "7bdb225457fa51c1",
+    "experiments/_e17_materials/templates.py": "c7a3e0d01d4817fa"
+  },
+  "e11_scene_templates": {
+    "experiments/LangMem/_e11/study_materials_s1.py": "53647a5452e9fef9",
+    "experiments/LangMem/_e11/study_materials_s2.py": "f6792b7b313a23e8",
+    "experiments/LangMem/_e11/instances_s1.py": "3edce056b60f696e",
+    "experiments/LangMem/_e11/instances_s2.py": "6688c8570c943724"
+  },
+  "note": "e17_v1 files are NOT modified by e17mg; reused hashes are recorded for drift detection only"
+}

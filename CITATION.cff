@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or the released observations, cite the accompanying manuscript. Publication metadata will be updated after publication."
+title: "Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution"
+type: software
+authors:
+  - family-names: Tan
+    given-names: Junwen
+    affiliation: Guilin University of Electronic Technology
+  - family-names: Ding
+    given-names: Yong
+    affiliation: Guilin University of Electronic Technology
+repository-code: "https://github.com/UniDarkstars/conjunctive-memory-injection"
+version: "2026.10.19-local"

@@ -1,0 +1,3 @@
+# Python 3.10+; full offline statistics retain the original NumPy PCG64 stream.
+# The six-main-table-only entry needs no third-party packages.
+numpy==1.26.4
