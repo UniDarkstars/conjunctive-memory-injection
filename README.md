@@ -80,6 +80,10 @@ The release fixes two defects in historical early runners/checkers: zero-tool-ca
 
 The method-comparison implementations are **adaptations**: AgentPoison omits the original target-action generation constraint, and MemoryGraft uses pre-seeded experiences instead of the original document-ingestion pipeline. ADK's lexical tie-breaking and attack-first insertion order are part of the released configuration. These implementations do not establish position-independent attack success or complete reproduction of the external papers.
 
+## Research use
+
+This repository supports security research on memory-augmented agents, experiment reproduction, and teaching. The export tools used in the experiments are local simulations and do not connect to real business systems. Please conduct tests only in environments that you own or are explicitly authorized to test, and comply with applicable laws and service terms. This notice does not modify the licenses applicable to the respective parts of the repository.
+
 ## Layout and tests
 
 ```text
