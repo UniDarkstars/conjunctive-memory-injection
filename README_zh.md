@@ -1,6 +1,6 @@
 # 合取式记忆注入：论文实验仓库
 
-本仓库对应 MiTA 稿件 **Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution**，作者为谭钧文、丁勇，单位为桂林电子科技大学。
+本仓库对应 MiTA 稿件 **Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution**。
 
 它包含当前论文的七类实验，并区分两种用途：
 

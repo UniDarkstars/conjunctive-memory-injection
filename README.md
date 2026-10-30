@@ -1,6 +1,6 @@
 # Conjunctive memory injection: experiments and reproducibility
 
-Research code and selected observations for **Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution**, by Junwen Tan and Yong Ding, Guilin University of Electronic Technology.
+Research code and selected observations for **Conjunctive Prompt Injection in Memory-Augmented Agents: Joint Retrieval and Unauthorized Tool Execution**.
 
 [中文使用说明](README_zh.md)
 
